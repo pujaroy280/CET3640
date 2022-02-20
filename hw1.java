@@ -22,7 +22,7 @@ public class hw1 {
 	    divide = (float) first / second; // Declare a variable for the division method
 
 	    System.out.println("Sum = " + add); // The system prints the output of the addition method
-	    System.out.println("Difference = " + subtract); // The system prints the output of the addition method
+	    System.out.println("Difference = " + subtract); // The system prints the output of the subtraction method
 	    System.out.println("Multiplication = " + multiply); // The system prints the output of the multiplication method
 	    System.out.println("Division = " + divide); // The system prints the output of the division method
 	}
