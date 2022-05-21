@@ -1,31 +1,34 @@
-// NAME: Puja Roy
-// DATE: 4/7/22
+//NAME: Puja Roy
+//DATE: 5/21/22
 
-public class Ship implements Movable { // Ship is the class that implements the interface Movable 
+// Ship class
 
-	@Override
-	public void moveForward() {
-		System.out.println("Ship navigates forward"); // Method that prints out message
-	}
+public class Ship
 
-	@Override
-	public void moveBackward() {
-		System.out.println("Ship navigates backward"); // Method that prints out message
-	}
+{
 
-	@Override
-	public void stop() {
-		System.out.println("Ship docked"); // Method that prints out message
-	}
+// private member variables
 
-	@Override
-	public void moveLeft() {
-		System.out.println("Ship navigates left"); // Method that prints out message
-	}
+/** Constructor */
 
-	@Override
-	public void moveRight() {
-		System.out.println("Ship navigates right"); // Method that prints out message
-	}
+public Ship(String nam, String year)
+
+{
 
 }
+
+
+/** Setter methods */
+
+public void setName(String nam)//setter method for name
+
+{
+
+}
+
+
+public void setYearBuilt(String year) //setter method for year
+
+{
+
+}}
